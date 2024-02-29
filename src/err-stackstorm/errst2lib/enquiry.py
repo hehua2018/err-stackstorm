@@ -82,11 +82,11 @@ class Enquiry:
 
     @classmethod
     def get_associated_data(cls):
-    """
-    The enquiry data is insufficent to identify it's association with a specific workflow.
-    The get_associated_data queries the associated execution_id and then the associated workflow.
-    to collect descriptions
-    """
+        """
+        The enquiry data is insufficent to identify it's association with a specific workflow.
+        The get_associated_data queries the associated execution_id and then the associated workflow.
+        to collect descriptions
+        """
     raise NotImplementedError
     
     
